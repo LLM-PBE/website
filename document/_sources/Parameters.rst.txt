@@ -67,7 +67,7 @@ The `DEA` class provides specific functionalities for data extraction attacks.
 
 **Methods:**
 
-- `query(text)`: Generates a response to the input text.
+- `execute(data, model)`: Generates a response to the input text.
   
 
 Jailbreak
@@ -75,13 +75,7 @@ Jailbreak
 
 The `Jailbreak` class provides specific functionalities for data extraction attacks.
 
-**Parameters:**
-
-- **model** (object): The model class to attack.
-- **data** (object): The data class to attack.
-- **attack_method** (str): The attack method to use.
-
 
 **Methods:**
 
-- `execute(data, model)`: Generates a response to the input text.
+- `execute(data, model)`: Return the responses of the model to the input text with jailbreaking prompts.

@@ -53,6 +53,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#togetherai">TogetherAI</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#data">Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#enron">Enron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#echr">Echr</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#attacks">Attacks</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#dea">DEA</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#jailbreak">Jailbreak</a></li>
@@ -125,6 +130,40 @@
 <p><strong>Methods:</strong></p>
 <ul class="simple">
 <li><p><cite>query(text)</cite>: Generates a response to the input text.</p></li>
+</ul>
+</section>
+</section>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Link to this heading"></a></h2>
+<p>The Data module provides interfaces to interact with various datasets and data sources.</p>
+<section id="enron">
+<h3>Enron<a class="headerlink" href="#enron" title="Link to this heading"></a></h3>
+<p>The <cite>Enron</cite> class provides specific functionalities to interact with the Enron dataset.</p>
+<p><strong>Parameters:</strong></p>
+<ul class="simple">
+<li><p><strong>sample_duplication_rate</strong> (float): The rate of sample duplication.</p></li>
+<li><p><strong>pseudonymize</strong> (bool): True or False to pseudonymize the dataset.</p></li>
+<li><p><strong>mode</strong> (str): “scrubbed” or “undefended”  for the dataset.</p></li>
+</ul>
+<p><strong>Methods:</strong></p>
+<ul class="simple">
+<li><p><cite>train_set()</cite>: Return the training dataset.</p></li>
+<li><p><cite>test_set()</cite>: Return the test dataset.</p></li>
+</ul>
+</section>
+<section id="echr">
+<h3>Echr<a class="headerlink" href="#echr" title="Link to this heading"></a></h3>
+<p>The <cite>Echr</cite> class provides specific functionalities to interact with the Echr dataset.</p>
+<p><strong>Parameters:</strong></p>
+<ul class="simple">
+<li><p><strong>sample_duplication_rate</strong> (float): The rate of sample duplication.</p></li>
+<li><p><strong>pseudonymize</strong> (bool): True or False to pseudonymize the dataset.</p></li>
+<li><p><strong>mode</strong> (str): “scrubbed” or “undefended”  for the dataset.</p></li>
+</ul>
+<p><strong>Methods:</strong></p>
+<ul class="simple">
+<li><p><cite>train_set()</cite>: Return the training dataset.</p></li>
+<li><p><cite>test_set()</cite>: Return the test dataset.</p></li>
 </ul>
 </section>
 </section>

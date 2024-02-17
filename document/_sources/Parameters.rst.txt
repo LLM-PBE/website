@@ -47,6 +47,43 @@ The `Together` class provides specific functionalities to interact with models h
 - `query(text)`: Generates a response to the input text.
 
 
+Data
+----
+
+The Data module provides interfaces to interact with various datasets and data sources.
+
+Enron
+^^^^^
+
+The `Enron` class provides specific functionalities to interact with the Enron dataset.
+
+**Parameters:**
+
+- **sample_duplication_rate** (float): The rate of sample duplication.
+- **pseudonymize** (bool): True or False to pseudonymize the dataset.
+- **mode** (str): "scrubbed" or "undefended"  for the dataset.
+
+**Methods:**
+
+- `train_set()`: Return the training dataset.
+- `test_set()`: Return the test dataset.
+
+Echr
+^^^^
+
+The `Echr` class provides specific functionalities to interact with the Echr dataset.
+
+**Parameters:**
+
+- **sample_duplication_rate** (float): The rate of sample duplication.
+- **pseudonymize** (bool): True or False to pseudonymize the dataset.
+- **mode** (str): "scrubbed" or "undefended"  for the dataset.
+
+**Methods:**
+
+- `train_set()`: Return the training dataset.
+- `test_set()`: Return the test dataset.
+
 
 Attacks
 -------

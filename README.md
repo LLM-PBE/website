@@ -2,4 +2,4 @@
 
 https://llm-pbe.github.io/
 
-Check the `gh-pages` branch
+The source code is saved in `gh-pages` branch
